@@ -337,7 +337,7 @@ const MultiSelectComponent: <T>(
         } else {
           onChange(newCurrentValue);
         }
-
+        eventClose();
         setKey(Math.random());
       },
       [
